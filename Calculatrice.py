@@ -6,11 +6,11 @@ def calculatrice():
   while continuer_logiciel:
     try:
       #permettre a  l'utilisateur d'entrer des données
-      num1 = float(input("entrez votre  premier nombre"))
+      num1 = float(input("entrez votre  premier nombre:"))
       operateur = input("Entrez l'opérateur (+, -, *, /) : ")
-      num2 = float(input("entrez votre second nombre"))
+      num2 = float(input("entrez votre second nombre:"))
       if operateur == "+":
-        resulta = num1 + num2
+        resultat = num1 + num2
       elif operateur == "-":
         resultat = num1 - num2
       elif operateur == "*":
@@ -20,9 +20,15 @@ def calculatrice():
                 print("ERREUR : Division par zéro impossible.")
                 #utilisation de continue  pour   retourne  au debut.
                 continue
-                resulta =  num1/num2
+                resultat =  num1/num2
       else: 
-                  print("Erreur")
-    except ValueError:
+               print("Erreur")
+               continue
+               #utilisation du fstring  pour une simplification du calcul  final.
+      print(f"RÉSULTAT : {num1} {operateur} {num2} = {resultat}") 
+    except ValueError: 
       print("veuillez entrez des formules correctes")  
-      #la logigue des calculs
+    print("Merci d'avoir tester  ma première calculatrice   à bientot !")
+    #lancement   de la calculatrice 
+calculatrice()
+      
