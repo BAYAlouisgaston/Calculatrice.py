@@ -1,6 +1,6 @@
 # Projet 1 : Calculatrice simple
 ## Objectif
-J'ai décider d'élaborer une calculatrice dans le but de pouvoir connaître les bases de la programmation en Python. 
+J'ai décidé d'élaborer une calculatrice dans le but de pouvoir connaître les bases de la programmation en Python. 
 ## Description  
 Calculatrice capable de résoudre des opérations simples telles que l'addition, la soustraction, la multiplication et la division tout en détectant l'erreur de la division par zéro.  
 ## Elaboration
